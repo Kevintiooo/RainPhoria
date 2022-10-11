@@ -54,7 +54,7 @@ function dayOfTheWeek(day, month, year){
 
 // Function to take and display the data from API
 function fetchWeatherData(){
-    fetch(`http://api.weatherapi.com/v1/current.json?key=1bd0ac8e04ff427b8a7164308221010&q=${cityInput}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=1bd0ac8e04ff427b8a7164308221010&q=${cityInput}`)
     .then(response => response.json())
     .then(data => {
         console.log(data);
