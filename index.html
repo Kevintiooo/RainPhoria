@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RainPhoria - Weather Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="weather_app">
+        <div class="container">
+            <h2 class="title">Rainphoria</h2>
+        
+            <div class="box_weather">
+                <h1 class="temp">16&#176;</h1>
+
+                <div class="city_time">
+                    <h1 class="name">Jakarta</h1>
+                    <small>
+                        <span class="time">05:00</span>
+                        -
+                        <span class="date">Wednesday Jan 1</span>
+                    </small>
+                </div>
+
+                <div class="weather">
+                    <img src="icons/day/113.png" alt="icon" class="icon">
+                    <span class="condition">Cloudy</span>
+                </div>
+            </div>
+        </div>
+
+    <div class="panel">
+        <form action="" id="locationInput">
+            <input type="text" class="search" placeholder="Search City...">
+            <button type="submit" class="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <ul class="cities">
+            <li class="city">Surabaya</li>
+            <li class="city">Denpasar</li>
+            <li class="city">Bandung</li>
+            <li class="city">Singapore</li>
+            <li class="city">Malaysia</li>
+        </ul>
+
+        <ul class="details">
+            <h4>Weather Details</h4>
+
+            <li>
+                <span>Cloudy</span>
+                <span class="cloud">90%</span>
+            </li>
+
+            <li>
+                <span>Humidity</span>
+                <span class="humidity">70%</span>
+            </li>
+
+            <li>
+                <span>Wind Speed</span>
+                <span class="wind">5km/h</span>
+            </li>
+
+            <li>
+                <span>Precipitation</span>
+                <span class="precipitation">0.5mm</span>
+            </li>
+
+            <li>
+                <span>Pressure</span>
+                <span class="pressure">29.8in</span>
+            </li>
+        </ul>
+        <p>Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
