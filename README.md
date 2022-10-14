@@ -1,5 +1,5 @@
 # RainPhoria
- Weather Tracker 
+ Weather Tracker Responsive App that use WeatherAPI.com 
 
  Link to the website: https://precious-dasik-944cfc.netlify.app/
  
